@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.dd{
+    line-height:40px;
+    display: table;
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.button{
+    background:#F00;
+    display: table-cell;
+}
+
+.dd button{
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	margin:50px;
+}
+.dd button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.dd button:active {
+	position:relative;
+	top:1px;
+}
+.dd {
+	padding-left: 90px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	background-image: url("https://w.wallhaven.cc/full/n6/wallhaven-n6122x.jpg");
+	height: 100%; 
+	width: 90%; 
+	background-position: right -20px top -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+
+</style>
+	<div class = "dd" >
+
+	<button onclick="audioPlay('audio1')">Alem Got</button>
+	<audio id="audio1" src="audio/Ata Alem Got.mp3" ></audio>
+
+	<button onclick="audioPlay('audio2')">Gulus 1</button>
+	<audio id="audio2" src="audio/Ata Gulus.mp3" ></audio>
+
+	<button onclick="audioPlay('audio3')">Gulus 2</button>
+	<audio id="audio3" src="audio/Ata Gulus 2.mp3" ></audio>
+
+	<button onclick="audioPlay('audio4')">Gulus 3</button>
+	<audio id="audio4" src="audio/Ata Gulus 3.mp3" ></audio>
+
+	<button onclick="audioPlay('audio5')">Gulus 4</button>
+	<audio id="audio5" src="audio/Ata Gulus 4.mp3" ></audio>
+
+	<button onclick="audioPlay('audio7')">Gulus 5</button>
+	<audio id="audio7" src="audio/Ata Gulus 5.mp3" ></audio>
+
+	<button onclick="audioPlay('audio8')">Warlock</button>
+	<audio id="audio8" src="audio/Ata Warlock.mp3" ></audio>
+
+	<button onclick="audioPlay('audio9')">Barış AMK</button>
+	<audio id="audio9" src="audio/Barış Amına Korum.mp3" ></audio>
+
+	<button onclick="audioPlay('audio10')">Bi Yarrak</button>
+	<audio id="audio10" src="audio/Barış Bi Yarrak.mp3" ></audio>
+
+	<button onclick="audioPlay('audio11')">Bunu Dizayn Edeni</button>
+	<audio id="audio11" src="audio/Barış Bunu Dizayn Edeni.mp3" ></audio>
+
+	<button onclick="audioPlay('audio12')">Fiçuv</button>
+	<audio id="audio12" src="audio/Barış Fiçuv.mp3" ></audio>
+
+	<button onclick="audioPlay('audio13')">Kör Oldum</button>
+	<audio id="audio13" src="audio/Barış Kör Oldum.mp3" ></audio>
+
+	<button onclick="audioPlay('audio14')">Lanet Olsun Sana</button>
+	<audio id="audio14" src="audio/Barış Lanet Olsun Sana.mp3" ></audio>
+
+	<button onclick="audioPlay('audio15')">Noldu Lan</button>
+	<audio id="audio15" src="audio/Bora Noldu Lan Amk.mp3" ></audio>
+
+	<button onclick="audioPlay('audio16')">Babacan</button>
+	<audio id="audio16" src="audio/Bora Babacan.mp3" ></audio>
+
+	<button onclick="audioPlay('audio17')">Hepsini Sokiyim Mi</button>
+	<audio id="audio17" src="audio/Muratcan Hepsini Sokiyim mi.mp3" ></audio>
+
+	<button onclick="audioPlay('audio18')">Muratcan Gulus</button>
+	<audio id="audio18" src="audio/Muratcan Gulus.mp3" ></audio>
+
+	<button onclick="audioPlay('audio19')">Kafayi Yedim</button>
+	<audio id="audio19" src="audio/Muratcan Kafayi Yedim.mp3" ></audio>
+
+	<button onclick="audioPlay('audio20')">Naber Lan</button>
+	<audio id="audio20" src="audio/Muratcan Naber Lan.mp3" ></audio>
+
+	<button onclick="audioPlay('audio21')">Napcaz Ki</button>
+	<audio id="audio21" src="audio/Muratcan Napcaz Ki.mp3" ></audio>
+
+	<button onclick="audioPlay('audio22')">Tipini Si...</button>
+	<audio id="audio22" src="audio/Muratcan Tipini.mp3" ></audio>
+
+	<button onclick="audioPlay('audio23')">Bana Ne Ya</button>
+	<audio id="audio23" src="audio/Musa Bana Ne Ya.mp3" ></audio>
+
+	<button onclick="audioPlay('audio24')">İhale Bana Mı Kaldı</button>
+	<audio id="audio24" src="audio/Musa İhale.mp3" ></audio>
+
+	<button onclick="audioPlay('audio25')">OC</button>
+	<audio id="audio25" src="audio/Musa OC.mp3" ></audio>
+	
+	<button onclick="audioPlay('audio26')">Olsun Amk</button>
+	<audio id="audio26" src="audio/Musa Olsun Amk.mp3" ></audio>
+
+	<audio id="dummy" src="audio/ÖLME BE ADAM (mp3cut.net).mp3" ></audio>
+</div>
+<script>
+
+var current  = document.getElementById("dummy");
+
+function audioPlay(aid) {
+
+	current.pause();
+	current.currentTime = 0;
+	current = document.getElementById(aid);
+	var inc = document.getElementById(aid);
+	inc.play();
+
+}
+
+</script>
+
+</body>
+</html>
